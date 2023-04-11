@@ -31,3 +31,6 @@ body{
     height: calc(100% / 5);
     padding-right: 1rem;
 }
+.raw{
+    max-width: max-content;
+}
