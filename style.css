@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+    color: white;
+}
+
+.tools{
+    text-align: right;    
+}
+
+.mini-tools{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: white;
+    padding: 2rem 4rem;
+}
+
+.flex{
+    display: flex;
+}
+.person{
+    background-size: cover;
+    width: calc(100% / 7);
+    height: calc(100% / 5);
+    padding-right: 1rem;
+}
