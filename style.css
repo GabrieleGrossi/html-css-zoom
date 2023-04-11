@@ -36,8 +36,8 @@ body{
 .person{
     background-image: url(https://picsum.photos/200/300);
     background-size: cover;
-    height: 135px;
-    width: 245px;
+    height: 14vh;
+    width: 12.5vw;
     margin: 0.5rem 0.2rem;
 }
 
