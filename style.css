@@ -18,19 +18,47 @@ body{
 }
 
 .container{
-    background-color: white;
-    padding: 2rem 4rem;
+    padding:2rem 4rem;
 }
 
 .flex{
     display: flex;
 }
-.person{
-    background-size: cover;
-    width: calc(100% / 7);
-    height: calc(100% / 5);
-    padding-right: 1rem;
+
+.wrap{
+    flex-wrap: wrap;
 }
-.raw{
-    max-width: max-content;
+
+.spacebetween{
+    justify-content: space-between;
+}
+
+.person{
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    height: 135px;
+    width: 245px;
+    margin: 0.5rem 0.2rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background-color: grey;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.flex{
+    align-items: center;
+}
+
+ul li{
+    margin-right: 1.5rem;
+    margin-top: 2rem;
 }
