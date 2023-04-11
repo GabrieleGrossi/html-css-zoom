@@ -40,6 +40,12 @@ body{
     width: 245px;
     margin: 0.5rem 0.2rem;
 }
+div.person span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: lightgrey;
+}
 
 footer{
     position: fixed;
